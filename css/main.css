@@ -688,7 +688,7 @@ body {
   color: #FFFFFF;
 }
 
-.specialisation_item_title::before {
+.specialisation_item_div::before {
   content: "";
   display: block;
   position: absolute;
