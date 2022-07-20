@@ -50,6 +50,11 @@ address {
   font-style: normal;
 }
 
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 link {
   text-decoration: none;
 }
@@ -568,6 +573,65 @@ body {
   border: none;
   border-radius: 4px;
   text-align: center;
+}
+
+.section.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.feature {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feature_item {
+  margin-right: 30px;
+  width: 270px;
+}
+
+.feature_item:last-child {
+  margin-right: 0;
+}
+
+.feature_picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.feature_title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature_text {
+  line-height: 1.71;
 }
 
 list {
