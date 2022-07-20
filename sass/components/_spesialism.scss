@@ -39,7 +39,7 @@
     text-transform: uppercase;
     color: $head-text-color;
 }
- &_item_title::before {
+.specialisation_item_title::before {
     content: "";
     display: block;
     position: absolute;
