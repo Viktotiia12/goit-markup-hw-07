@@ -95,7 +95,7 @@
    
 
 }
-.site-nav_link-current::after{
+ &_link-current::after{
         content: '';
         position: absolute;
         bottom: 0;
