@@ -12,12 +12,13 @@
     padding-bottom: 25px;
     margin-bottom: 0;
 
-}
 
-.logo_web {
+
+&_web {
     color: $acent-color;
 }
 
-.logo_studio {
+&_studio {
     color: $logo-color;
+}
 }

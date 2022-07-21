@@ -18,17 +18,18 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-}
-.specialisation_item {
+
+&_item {
     margin-right: 30px;
     position: relative;;
 }
-.specialisation_item:last-child{
+
+&_item:last-child{
     margin-right: 0;
 
 }
 
-.specialisation_item_title{
+&_item_title{
     display: flex;
     position: absolute;
     bottom: 0;
@@ -42,7 +43,8 @@
     color: $head-text-color;
    
 }
-.specialisation_item_div::before {
+
+&_item_div::before {
     content: "";
     display: block;
     position: absolute;
@@ -52,4 +54,5 @@
     left: 0;
     bottom: 0;
     background-color: rgba(47, 48, 58, 0.8);
+}
 }

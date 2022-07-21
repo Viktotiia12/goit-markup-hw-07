@@ -10,8 +10,8 @@
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-}
-.hero_title{
+
+&_title{
     display:block;
     margin-bottom: 30px;
     width: 696px;
@@ -28,7 +28,8 @@ background-size: cover;
     text-align: center;
 
 }
-.hero_button{
+
+&_button{
     min-width: 200px;
     padding: 10px 32px;
     border: none;
@@ -42,9 +43,10 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 }
-.hero_button:hover,
-.hero_button:focus{
+
+&_button:hover,
+&_button:focus{
     background-color: $background-main-button;
     cursor: pointer;
-
+}
 }

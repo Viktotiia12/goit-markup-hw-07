@@ -26,9 +26,9 @@
     fill: #AFB1B8;
 
 
-}
 
-.clients_link{
+
+ &_link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,22 +42,22 @@
 
 }
 
-.clients_item{
+ &_item{
     margin-right: 30px;
 }
 
-.clients_item:last-child {
+&_item:last-child {
     margin-right: 0;
 }
 
-.clients_icon {
+&_icon {
     fill: currentColor;
 }
 
-.clients_link:hover,
-.clients_link:focus {
+&_link:hover,
+&_link:focus {
     border-color: $acent-color;
     color: $acent-color;
 }
-
+}
 

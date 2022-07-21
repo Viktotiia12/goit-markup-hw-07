@@ -3,8 +3,8 @@
 }
 .site-nav{
     padding-left: 0;
-}
-.site-nav_link {
+
+&_link {
     text-decoration: none;
     color: $secondary-hesd-color;
     display: inline-block;
@@ -16,7 +16,7 @@
 
 }
 
-.site-nav_item {
+&_item {
     position: relative;
     
 
@@ -25,10 +25,10 @@
     margin-right: 50px;
 }
 
-.site-nav_item:last-child {
+&_item:last-child {
     margin-right: 0
 }
-
+}
 .site-auth_item {
     list-style-type: none;
     margin-right: 30px;
@@ -85,12 +85,12 @@
     align-items: center;
     padding-right: 0;
     padding-left: 0;
-}
-.site-auth_link{
+
+&_link{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-
+}
 .conteiner.site_nav {
     display: flex;
     text-align: center;
@@ -102,8 +102,8 @@
     color: $acent-color;
    
 
-}
-.site-nav_link-current::after{
+
+&::after{
         content: '';
         position: absolute;
         bottom: 0;
@@ -114,6 +114,7 @@
         display: inline-block;
         background-color: $acent-color;
         border-radius: 2px;
+}
 }
 .icon-mail {
     fill: currentColor;
