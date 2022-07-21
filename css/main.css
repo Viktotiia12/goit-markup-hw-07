@@ -171,7 +171,7 @@ body {
   color: #2196F3;
 }
 
-.site-nav-current::after {
+.site-nav_link-current::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -1136,6 +1136,11 @@ body {
 
 .form-button-text {
   margin-right: 10px;
+}
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 list {
