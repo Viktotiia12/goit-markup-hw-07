@@ -1,3 +1,9 @@
+.nav{
+    display: block;
+}
+.site-nav{
+    padding-left: 0;
+}
 .site-nav_link {
     text-decoration: none;
     color: $secondary-hesd-color;
@@ -61,13 +67,14 @@
 }
 
 .site-auth {
-    display: flex;
-    text-align: center;
+        display: inline-flex;
+        margin-left: auto;
+        align-items: center;
     
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: auto;
+ 
 
     font-family: 'Roboto';
     font-style: normal;
@@ -76,17 +83,18 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     align-items: center;
+    padding-right: 0;
+    padding-left: 0;
 }
 .site-auth_link{
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.conteiner.site-nav {
-    margin-right: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 1200px;
+.conteiner.site_nav {
+    display: flex;
+    text-align: center;
+    
 }
 
 
