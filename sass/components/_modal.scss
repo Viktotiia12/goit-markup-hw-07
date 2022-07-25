@@ -6,6 +6,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1;
 
 &.is-hidden {
     opacity: 0;
@@ -17,10 +18,17 @@
     transform: translate(-50%, -50%) scale(0.9);
 }
 }
+.form{
+    padding-top: 40px;
+}
 .modal {
     position: absolute;
     top: 50%;
     left: 50%;
+    margin: 0;
+   padding-left:  40px;
+   padding-right: 40px;
+   padding-bottom: 40px;
     
 
     background-color: $head-text-color;
@@ -33,10 +41,13 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-&_button {
+&__button {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
     margin-top: 8px;
     margin-right: 8px;
     margin-left: auto;
@@ -50,9 +61,13 @@
     cursor: pointer;
 }
 }
+.icon-close{
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
 .icon-close:hover,
 .icon-close:focus {
     fill: $background-main-button;
+    
 }
 .form {
     display: block;
@@ -63,7 +78,7 @@
 
 
 
-&-text {
+&__text {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 20px;
@@ -73,7 +88,7 @@
     text-align: left;
 }
 
-&-field {
+&__field {
     position: relative;
 
     margin-bottom: 10px;
@@ -81,11 +96,11 @@
     flex-direction: column;
 }
 
-&-field:last-child {
+&__field:last-child {
     margin-bottom: 20px;
 }
 
-&-field_modal{
+&__field__modal{
     display: inline-block;
     text-align: left;
     margin-bottom: 4px;
@@ -151,7 +166,7 @@
         overflow: auto;
         vertical-align: top;
     }
-    .form-field_checkbox {
+    .form__field__checkbox {
         display: flex;
         text-align: center;
         justify-content: center;

@@ -1,10 +1,13 @@
 .nav{
     display: block;
 }
-.site-nav{
+.nav__site-nav{
     padding-left: 0;
-
-&_link {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.nav__link {
     text-decoration: none;
     color: $secondary-hesd-color;
     display: inline-block;
@@ -16,30 +19,30 @@
 
 }
 
-&_item {
+.nav__item {
     position: relative;
     
 
 
     list-style-type: none;
     margin-right: 50px;
-}
 
-&_item:last-child {
+}
+.nav__item:last-child {
     margin-right: 0
 }
-}
-.site-auth_item {
+
+.site-auth__item {
     list-style-type: none;
     margin-right: 30px;
 }
 
-.site-auth_item:last-child {
+.site-auth__item:last-child {
     margin-right: 0;
 
 }
 
-.site-auth_link {
+.site-auth__link {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -87,7 +90,7 @@
     padding-right: 0;
     padding-left: 0;
 
-&_link{
+&__link{
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -99,7 +102,7 @@
 }
 
 
-.site-nav_link-current {
+.nav__link-current {
     color: $acent-color;
    
 
@@ -131,21 +134,20 @@
     cursor: pointer;
 
 }
-.site-auth_link:hover,
-.site-auth_link:focus {
+.site-auth__link:hover,
+.site-auth__link:focus {
     color: $background-main-button;
 }
 
-.site-nav_link:hover,
-.site-nav_link:focus {
+.nav__link:hover,
+.nav__link:focus {
     color: $background-main-button;
 }
-.site-nav_item:hover,
-.site-nav_item:focus{
+.nav__item:hover,
+.nav__item:focus{
 color: $background-main-button;
 }
-.site-auth_item:hover,
-.site-auth_item:focus {
+.site-auth__item:hover,
+.site-auth__item:focus {
     color: $background-main-button;
 }
-

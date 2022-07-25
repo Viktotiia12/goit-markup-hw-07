@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 
-.client-title {
+.client__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -28,7 +28,7 @@
 
 
 
- &_link{
+ &__item__link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,20 +42,20 @@
 
 }
 
- &_item{
+ &__item{
     margin-right: 30px;
 }
 
-&_item:last-child {
+&__item:last-child {
     margin-right: 0;
 }
 
-&_icon {
+&__item__icon {
     fill: currentColor;
 }
 
-&_link:hover,
-&_link:focus {
+&__item__link:hover,
+&__item__link:focus {
     border-color: $acent-color;
     color: $acent-color;
 }

@@ -1,7 +1,7 @@
 .specialism{
     padding-bottom: 94px;
 }
-.specialisation_title {
+.specialisation__title {
     margin-top: 0;
     margin-bottom: 50px;
 
@@ -19,17 +19,17 @@
     margin-bottom: 0;
     padding-left: 0;
 
-&_item {
+&__item {
     margin-right: 30px;
     position: relative;;
 }
 
-&_item:last-child{
+&__item:last-child{
     margin-right: 0;
 
 }
-
-&_item_title{
+}
+.specialisation__item__title{
     display: flex;
     position: absolute;
     bottom: 0;
@@ -44,7 +44,7 @@
    
 }
 
-&_item_div::before {
+.specialisation__item__div::before {
     content: "";
     display: block;
     position: absolute;
@@ -54,5 +54,4 @@
     left: 0;
     bottom: 0;
     background-color: rgba(47, 48, 58, 0.8);
-}
 }

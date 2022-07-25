@@ -26,7 +26,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
-&_member{
+&__member{
 margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -34,16 +34,16 @@ margin-right: 30px;
     border-radius: 0px 0px 4px 4px;
 }
 
-&_member:last-child{
+&__member:last-child{
     margin-right:0
 }
-&_transcription{
+&__member__transcription{
         padding-top: 30px;
         padding-bottom: 30px;
         margin-top: 0;
 }
 
-&_member_name{
+&__member__name{
     margin-bottom: 10px;
     
     
@@ -56,7 +56,7 @@ margin-right: 30px;
 }
 
 
-&_member_description{
+&__member__description{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -76,7 +76,7 @@ margin-right: 30px;
     color: #AFB1B8;
   
 
-&_icon{
+&__icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,15 +88,15 @@ margin-right: 30px;
     margin-right: 10px;
 }
 
-&_icon:last-child{
+&__icon:last-child{
     margin-right:0
 }
 
-&_icon .icon {
+&__icon .icon {
 fill: #AFB1B8;
 }
 
-&_link {
+&__link {
    
 display: flex;
 justify-content: center;
@@ -111,12 +111,12 @@ color: #AFB1B8;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 }
-.social-link_icon .icon{
+.social-link__icon .icon{
     fill: currentColor;
 }
 
-.social-link_link:hover,
-.social-link_link:focus{
+.social-link__link:hover,
+.social-link__link:focus{
     background-color: $acent-color;
     color: $head-text-color;
 }

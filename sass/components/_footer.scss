@@ -31,23 +31,23 @@
 
 }
 
-.list-adress{
+.list__adress{
  display: block;
 padding-left: 0;
 
 
 
- &_item {
+ &__item {
     margin-bottom: 9px;
     margin: 0;
     padding: 0;
 }
 
- &_item:last-child {
+ &__item:last-child {
     margin-bottom: 0;
 }
 
- &_map{
+ &__map{
     color: $head-text-color;
     font-family: "Roboto";
     font-style: normal;
@@ -59,12 +59,12 @@ padding-left: 0;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- &_map:hover,
- &_map:focus {
+ &__map:hover,
+ &__map:focus {
     color: $acent-color;
 }
 
- &_mail{
+ &__mail{
     color: rgba(255, 255, 255, 0.6);
     font-family: "Roboto";
     font-style: normal;
@@ -76,12 +76,12 @@ padding-left: 0;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- &_mail:hover,
- &_mail:focus {
+ &__mail:hover,
+ &__mail:focus {
     color: $acent-color;
 }
 
- &_telephone {
+ &__telephone {
     color: rgba(255, 255, 255, 0.6);
     font-family: "Roboto";
     font-style: normal;
@@ -93,8 +93,8 @@ padding-left: 0;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- &_telephone:hover,
- &_telephone:focus {
+ &__telephone:hover,
+ &__telephone:focus {
     color: $acent-color;
 
 }
@@ -103,10 +103,10 @@ padding-left: 0;
     display: inline-block;
     margin-right: 70px;
 }
-.social-chapter{
+.social__chapter{
     display: inline-block;
 
- &_title {
+ &__title {
 
 
     font-family: 'Roboto';
@@ -127,12 +127,12 @@ padding-left: 0;
     text-align: center;
     justify-content: center;
 
-
- &_icon{
+}
+.social__item__link__icon{
     fill: $head-text-color;
 }
 
- &_link{
+.social__item__link{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -146,12 +146,12 @@ padding-left: 0;
     
 }
 
- &_link:hover,
- &_link:focus {
+.social__item__link:hover,
+.social__item__link:focus {
     background-color: $acent-color;
 }
 
-}
+
 .footer-form {
     display: flex;
 }

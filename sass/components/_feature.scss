@@ -10,16 +10,16 @@
 
 
 
-&_item{
+&__item{
     margin-right: 30px;
     width: 270px;
 }
 
-&_item:last-child{
+&__item:last-child{
     margin-right: 0;
 }
 
-&_picture {
+&__item__picture{
     display: flex;
     width: 270px;
     height: 120px;
@@ -30,7 +30,7 @@
 
 }
 
-&_title{
+&__item__title{
 margin-top: 0;
 margin-bottom: 10px;
 
@@ -44,7 +44,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
-&_text {
+&__item__text {
     line-height: 1.71;
 
 }
