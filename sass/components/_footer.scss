@@ -34,6 +34,8 @@
 .list__adress{
  display: block;
 padding-left: 0;
+margin: 0;
+padding: 0;
 
 
 
@@ -126,6 +128,8 @@ padding-left: 0;
     padding-left: 0;
     text-align: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 
 }
 .social__item__link__icon{
@@ -192,11 +196,12 @@ padding-left: 0;
 }
 
  &-button {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 29px;
+    align-items: center;
+   
 
     width: 200px;
     height: 50px;
